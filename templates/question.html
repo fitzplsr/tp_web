@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/question.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div class="container-top fixed-top">
+        <a class="icon" href="./index.html">SegFault</a>
+        <form class="search">
+          <input class="form-control me-2" id="search-q" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <a href="./ask.html" class="ask">ASK!</a>
+        <div class="user">
+          <div class="avatar" id="top-ava">
+            <img src="../static/img/avatar-2.jpeg" alt="">
+          </div>
+          <div class="actions">
+            <div class="name">Cr. Ronaldo</div>
+            <div class="other">
+              <a class="settings" href="./settings.html">settings</a>
+              <a class="log-out" href="./login.html">log out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-area">          
+      <div class="main-area">
+          <div class="main-question-title">Question 1</div>
+        <div class="main-question">
+          
+          <div class="left-side">
+              <div class="avatar" id="main-avatar">
+                <img src="../static/img/avatar-2.jpeg" alt="">
+              </div>
+              <div class="rate" id="main-rate">
+                <div class="rate-num">5</div>
+                <button class="like">
+                  <div class="material-icons" id="thumb_up">thumb_up</div>
+                </button>
+                <button class="dislike">
+                  <div class="material-icons" id="thumb_down">thumb_down</div>
+                </button>
+              </div>
+            </div>
+            <div class="right-side">
+
+              <div class="main-question-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente dolor officia in omnis quia, illum quas neque possimus pariatur minima doloribus rem! Non optio fuga ex cupiditate itaque exercitationem rem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti cum laboriosam modi, doloremque, natus alias amet ipsum delectus fuga in quo laudantium magni id ad eius error fugit eveniet? Dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit consequatur voluptatibus rerum, similique maxime veritatis praesentium suscipit nisi magni dolorem sapiente accusamus expedita, modi est velit. Repellendus, obcaecati minima.
+              </div>
+              <div class="right-bot">
+                <div class="tag-start">Tags:</div>
+                <a href="#" class="tag">python</a>
+                <a href="#" class="tag">milkshake</a>
+              </div>
+            </div>
+        </div>
+        <div class="answer">
+          <div class="left-side">
+              <div class="avatar">
+                <img src="../static/img/avatar-3.jpeg" alt="">
+              </div>
+              <div class="rate">
+                <div class="rate-num">5</div>
+                <button class="like">
+                  <div class="material-icons" id="thumb_up">thumb_up</div>
+                </button>
+                <button class="dislike">
+                  <div class="material-icons" id="thumb_down">thumb_down</div>
+                </button>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="answer-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente dolor officia in omnis quia, illum quas neque possimus pariatur minima doloribus rem! Non optio fuga ex cupiditate itaque exercitationem rem.
+              </div>
+              <div class="right-bot">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                          Correct!
+                      </label>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <form class="new-answer">
+          <textarea name="answer-area" id="" cols="60" rows="8" placeholder="Enter your answer here..." maxlength="1000"></textarea>
+        </form>
+        <nav aria-label="Page navigation example" id="bot-nav">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-label="Previous" aria-disabled="true">&laquo;</a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-disabled="true">...</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">10</a></li>
+
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sub-area">
+        <div class="popular-tags">
+          <h2>Popular Tags</h2>
+          <div class="ptags">
+            <a class="ptag">perl</a>
+            <a class="ptag">python</a>
+            <a class="ptag">TechnoPark</a>
+            <a class="ptag">MySQL</a>
+            <a class="ptag">django</a>
+            <a class="ptag">Mail.ru</a>
+            <a class="ptag">Firefox</a>
+            <a class="ptag">memory</a>
+          </div>
+        </div>
+        <div class="best-members">
+          <h2>Best Members</h2>
+          <a href="#" class="bmem">Mr. Freeman</a>
+          <a href="#" class="bmem">Dr. House</a>
+          <a href="#" class="bmem">Bender</a>
+          <a href="#" class="bmem">Queen Victoria</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
